@@ -1,0 +1,30 @@
+{
+  "name": "task-tracker-docker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node src/server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Delcan-f/Task-Tracker-Docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Delcan-f/Task-Tracker-Docker/issues"
+  },
+  "homepage": "https://github.com/Delcan-f/Task-Tracker-Docker#readme",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.14.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
